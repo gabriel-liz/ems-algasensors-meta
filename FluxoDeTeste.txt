@@ -1,0 +1,11 @@
+No arquivo AlgaSensors.postman_collection.json temos a coleção com os endpoints.
+
+Abrindo no postman ou algum outro app
+* Em Device Management, temos o endpoint Search Sensors que retorna todos os sensores
+ * No endpoint Find Sensor by Id With Detail podemos verificar os dados do sensor e os dados do monitoramento
+
+Em Temperature Processing, temos o endpoint Temperature Processing onde podemos enviar temperaturas
+Após enviar a temperatura, podemos voltar no endpoint Find Sensor by Id With Detail podemos verificar os dados do sensor e os dados do monitoramento
+    * E terão sido atualizados os campos lastTemperature e updatedAt
+
+ Em Temperature Monitoring, temos o endpoint Find Sensor Temperatures onde podemos verificar todas as temperaturas registrar para o dispositivo.
