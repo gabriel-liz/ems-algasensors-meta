@@ -2,7 +2,7 @@
 
 Projeto de processamento e monitoração de dispositivos de temperatura
 
-
+* FluxoDeTeste.txt para facilitar e lembrar o fluxo basico da operação
 
 
 Adicionado RabbitMQ no projeto
@@ -33,6 +33,8 @@ Em Exchanges, acessar a exchange:
 Bindings -> "To queue": temperature-monitoring.process-temperature.v1.q -> Bind
 
 ##################################
+
+
 
 
 
