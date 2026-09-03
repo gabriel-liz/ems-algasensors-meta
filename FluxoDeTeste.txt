@@ -9,3 +9,11 @@ Após enviar a temperatura, podemos voltar no endpoint Find Sensor by Id With De
     * E terão sido atualizados os campos lastTemperature e updatedAt
 
  Em Temperature Monitoring, temos o endpoint Find Sensor Temperatures onde podemos verificar todas as temperaturas registrar para o dispositivo.
+
+
+
+ PARA CADASTRAR UM ALERTA DE TEMPERATURA PARA O DEVICE:
+
+ Em Device Management -> Pega algum sensor ativo ->
+    -> Temperature Monitoring -> Change Sensor Alert Config -> Informa os dados no Body -> Find Sensor Alert Config -> verificar o alerta do sensor cadastrado.
+        -> Temperature Processing -> Em param informa o id do sensor ->  Em Body informa os dados min e max -> No console dará para ver o que foi processado de acordo com a regra do monitoramento
